@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/dark_transparent_75">
+    <CheckBox 
+        android:id="@+id/checkbox_auto_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_update"
+        android:onClick="onAutoUpdate"/>
+    <CheckBox 
+        android:id="@+id/checkbox_save_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_auto_update"
+        android:text="@string/save_images"
+        android:onClick="onSaveImages"/>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_save_images"
+        android:drawableLeft="@drawable/ic_refresh"
+        android:background="@drawable/selector_play"
+        android:text="@string/update"
+        android:onClick="onUpdate"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snap the Shot</string>
+    
+    <string name="select_level">Izaberite grad</string>
+    <string name="progress">Rešeno</string>
+    <string name="version">Verzija</string>
+    <string name="helps">Pomoći</string>
+    <string name="level_state">Stanje nivoa</string>
+    <string name="statistic">Statistika</string>
+    <string name="settings">Podešavanja</string>
+    <string name="help">Pomoć</string>
+    <string name="info">Informacije</string>
+    <string name="play">Igraj</string>
+    <string name="update">Ažuriraj</string>
+    <string name="sights">Znamenitosti</string>
+    <string name="sight_image">Slika znamenitosti</string>
+    <string name="sight_state">Stanje znamenitosti</string>
+    <string name="auto_update">Automatski ažuriraj aplikaciju</string>
+    <string name="save_images">Sačuvaj slike</string>
+    <string name="camera">Kamera</string>
+    <string name="map">Mapa</string>
+    <string name="please_wait">Molimo sačekajte</string>
+    <string name="comparing">Fotografije se upoređuju\u2026</string>
+    <string name="updating">Nivoi se ažuriraju\u2026</string>
+    <string name="date_format">dd.MM.yyyy. HH:mm</string>
+    <string name="icon">Ikonica</string>
+    <string name="connection_error">Greška u konekciji</string>
+    <string name="copyright">Copyright \u00A9 2013 Nikola Marković</string>
+    <string name="copyright_text">
+        Ovaj program je slobodni softver; možete ga raspodeliti i/ili
+        menjati pod odredbama GNU-ove opšte javne licence koju je objavila
+        Zadužbina za slobodni softver; i to, bilo verzije 3 Licence, ili
+        (po vašem izboru) bilo koje sledeće verzije.
+    </string>
+</resources>

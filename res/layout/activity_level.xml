@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:baselineAligned="false"
+              android:orientation="horizontal"
+              android:background="@drawable/img_bg">
+    <LinearLayout 
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/dark_transparent_50">
+        <rs.ac.metropolitan.cs330.znamenitosti.gui.FancyTextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/blue_transparent_50"
+            android:text="@string/sights"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"/>
+        <fragment
+            android:id="@+id/select_sight_fragment"
+            android:name="rs.ac.metropolitan.cs330.znamenitosti.fragment.level.SelectSight"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent">
+        <FrameLayout 
+            android:id="@+id/level_fragment_content"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:padding="5dp"/>  
+    </LinearLayout>
+</LinearLayout>
+

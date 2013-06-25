@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+ 
+        <rs.ac.metropolitan.cs330.znamenitosti.gui.FancyTextView
+            android:id="@+id/solved_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <ImageButton 
+            android:id="@+id/solved_map"  
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/map"
+            android:src="@drawable/ic_map"
+            android:background="@android:color/transparent"
+            android:onClick="onSolvedMap"/>
+        <TextView
+            android:id="@+id/solved_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/solved_name"
+            android:textColor="@color/dark"/>
+        <ImageView 
+            android:id="@+id/solved_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/solved_time" 
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_disable"
+            android:contentDescription="@string/sight_image"/>
+        <TextView
+            android:id="@+id/solved_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/solved_image"
+            android:background="@color/dark_transparent_75"/>
+        
+    </RelativeLayout>
+</ScrollView>

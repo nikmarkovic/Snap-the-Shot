@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_address">http://192.168.1.192</string>
+    <string name="server_port">9000</string>
+    <string name="test_level">false</string>   
+</resources>
